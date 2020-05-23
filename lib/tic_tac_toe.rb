@@ -93,21 +93,6 @@ def winner(board)
   end
 end
 
-# def play(board)
-#   counter=0
-#   while counter < 9
-#     turn(board)
-#     counter +=1
-#   end
-# end
-
-# def play (board)
-#   input = gets.strip
-#   index = input_to_index(input)
-#   until over?(board) == true
-#     turn(board)
-#   end
-# end
 
 def play(board)
    until over?(board)
